@@ -7,6 +7,7 @@
 //
 
 #import "MSViewController.h"
+#import "MSCreateAccountViewController.h"
 
 @interface MSViewController ()
 
@@ -27,6 +28,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.usernameText.text = [[NSUserDefaults standardUserDefaults] objectForKey:USER_NAME];
+    self.passwordText.text = [[NSUserDefaults standardUserDefaults] objectForKey:USER_PASSWORD];
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,5 +37,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+//use the below to set a simple modal back segue using a UI Button
+- (IBAction)backButtonPressed:(UIButton *)sender
+{
+    [self performSegueWithIdentifier:@"backToSignIn" sender:sender];
+}
 @end
