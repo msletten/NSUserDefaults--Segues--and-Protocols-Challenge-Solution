@@ -1,18 +1,18 @@
 //
-//  MSViewController.m
+//  MSSignInViewController.m
 //  NSUserDefaults, Segues, and Protocols Challenge Solution
 //
 //  Created by Mat Sletten on 5/5/14.
 //  Copyright (c) 2014 Mat Sletten. All rights reserved.
 //
 
-#import "MSViewController.h"
+#import "MSSignInViewController.h"
 
-@interface MSViewController ()
+@interface MSSignInViewController ()
 
 @end
 
-@implementation MSViewController
+@implementation MSSignInViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

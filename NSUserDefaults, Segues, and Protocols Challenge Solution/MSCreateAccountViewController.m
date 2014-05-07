@@ -1,18 +1,18 @@
 //
-//  MSViewController.m
+//  MSCreateAccountViewController.m
 //  NSUserDefaults, Segues, and Protocols Challenge Solution
 //
 //  Created by Mat Sletten on 5/5/14.
 //  Copyright (c) 2014 Mat Sletten. All rights reserved.
 //
 
-#import "MSViewController.h"
+#import "MSCreateAccountViewController.h"
 
-@interface MSViewController ()
+@interface MSCreateAccountViewController ()
 
 @end
 
-@implementation MSViewController
+@implementation MSCreateAccountViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
